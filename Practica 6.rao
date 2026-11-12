@@ -1,0 +1,38 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Lite</Mode>
+    <AoCore_Lite index="0" sample_clock="In_clk" trig_type="0" capture_amount="1024" implemention="0" input_register_enabled="0" capture_init_data_enabled="0" module_name="US_TOP">
+        <SignalList>
+            <Bus capture_enable="true" name="data.uni[3:0]">
+                <Signal>data.uni[3]</Signal>
+                <Signal>data.uni[2]</Signal>
+                <Signal>data.uni[1]</Signal>
+                <Signal>data.uni[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="data.dec[3:0]">
+                <Signal>data.dec[3]</Signal>
+                <Signal>data.dec[2]</Signal>
+                <Signal>data.dec[1]</Signal>
+                <Signal>data.dec[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="data.cen[3:0]">
+                <Signal>data.cen[3]</Signal>
+                <Signal>data.cen[2]</Signal>
+                <Signal>data.cen[1]</Signal>
+                <Signal>data.cen[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="data.tho[3:0]">
+                <Signal>data.tho[3]</Signal>
+                <Signal>data.tho[2]</Signal>
+                <Signal>data.tho[1]</Signal>
+                <Signal>data.tho[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">o_trg</Signal>
+            <Signal capture_enable="true">In_clk</Signal>
+            <Signal capture_enable="true">In_enb</Signal>
+            <Signal capture_enable="true">In_echo</Signal>
+        </SignalList>
+    </AoCore_Lite>
+    <GAO_ID>0100011000000001</GAO_ID>
+</GAO_CONFIG>
